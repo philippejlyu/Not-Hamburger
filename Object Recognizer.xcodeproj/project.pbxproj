@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD614A802006C6D000DE4B6D /* VGG16.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = AD614A7F2006C6D000DE4B6D /* VGG16.mlmodel */; };
 		ADB59EDA1EECB62E00C701B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB59ED91EECB62E00C701B2 /* AppDelegate.swift */; };
 		ADB59EDC1EECB62E00C701B2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADB59EDB1EECB62E00C701B2 /* ViewController.swift */; };
 		ADB59EDF1EECB62E00C701B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADB59EDD1EECB62E00C701B2 /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AD614A7F2006C6D000DE4B6D /* VGG16.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = VGG16.mlmodel; path = ../../../../Downloads/VGG16.mlmodel; sourceTree = "<group>"; };
 		ADB59ED61EECB62E00C701B2 /* Object Recognizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Object Recognizer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADB59ED91EECB62E00C701B2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADB59EDB1EECB62E00C701B2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				ADB59ED91EECB62E00C701B2 /* AppDelegate.swift */,
 				ADB59EDB1EECB62E00C701B2 /* ViewController.swift */,
+				AD614A7F2006C6D000DE4B6D /* VGG16.mlmodel */,
 				ADB59EDD1EECB62E00C701B2 /* Main.storyboard */,
 				ADB59EE01EECB62E00C701B2 /* Assets.xcassets */,
 				ADB59EE21EECB62E00C701B2 /* LaunchScreen.storyboard */,
@@ -137,6 +140,7 @@
 			files = (
 				ADB59EDC1EECB62E00C701B2 /* ViewController.swift in Sources */,
 				ADB59EDA1EECB62E00C701B2 /* AppDelegate.swift in Sources */,
+				AD614A802006C6D000DE4B6D /* VGG16.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -312,6 +316,7 @@
 				ADB59EEA1EECB62E00C701B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
